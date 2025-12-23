@@ -1,0 +1,16 @@
+---
+applications:
+- name: demo
+  memory: 1024M
+  instances: 1
+  random-route: true
+  path: target/demo-0.0.1-SNAPSHOT.jar
+  buildpacks:
+    - sap_java_buildpack_jakarta
+  env:
+    JBP_CONFIG_COMPONENTS: "jres: ['com.sap.xs.java.buildpack.jdk.SAPMachineJDK']"
+    JBP_CONFIG_SAP_MACHINE_JDK: "{ version: 21.+ }"
+    SPRING_PROFILES_ACTIVE: cloud
+  services:
+    - destination-service
+    - connectivity-service
