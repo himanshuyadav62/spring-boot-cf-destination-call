@@ -41,27 +41,11 @@
 			<artifactId>cloudplatform-connectivity</artifactId>
 			<version>5.25.0</version>
 		</dependency>
-		<dependency>
-			<groupId>com.sap.cloud.sdk.cloudplatform</groupId>
-			<artifactId>cloudplatform-core</artifactId>
-			<version>5.25.0</version>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>com.sap.cloud.sdk.cloudplatform</groupId>
-			<artifactId>connectivity-destination-service</artifactId>
-			<version>5.25.0</version>
-		</dependency>
+		
 		<dependency>
 			<groupId>com.sap.cloud.sdk.cloudplatform</groupId>
 			<artifactId>connectivity-apache-httpclient5</artifactId>
 			<version>5.25.0</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sap.cloud.sdk.cloudplatform</groupId>
-			<artifactId>resilience-api</artifactId>
-			<version>5.25.0</version>
-			<scope>compile</scope>
 		</dependency>
 	
 		<dependency>
